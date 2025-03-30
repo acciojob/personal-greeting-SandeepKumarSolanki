@@ -18,7 +18,9 @@ const App = () => {
           <input onChange={handleChange}
 
           />
-          <h3>Hello {username}</h3>
+          {username.length ?(
+            <h3>Hello {username}</h3>
+          ):(<h3></h3>)}
           
         </form>
     </div>
