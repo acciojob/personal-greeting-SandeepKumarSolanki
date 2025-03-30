@@ -18,7 +18,7 @@ const App = () => {
           <input onChange={handleChange}
 
           />
-          {username.length > 0&&(
+          {username.length > 0 &&(
             <h3>Hello {username}</h3>
           )}
           
